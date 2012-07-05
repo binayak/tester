@@ -37,7 +37,7 @@ class ThisIsNavigation extends baseDefinitions {
     public function goBackToHomePage () //French Store
     {
         $this->test->open("/");
-        $this->test->assertEquals("Kookai: mode et tendance pour femme et petite fille. | Kookai",$this->test->getTitle());
+        $this->test->assertEquals("Kookai: mode et tendance pour femme et petite fille. | ",$this->test->getTitle());
     }
     
     
