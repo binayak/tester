@@ -25,7 +25,7 @@ class baseDefinitions extends PHPUnit_Extensions_SeleniumTestCase{
     public function setUp()
     {
         $this->setBrowser("*firefox");
-        $this->setBrowserUrl("http://admin:emerald29pearl@kookai-fr.uat.sessiondigital.com/");
+        $this->setBrowserUrl("http://username:password@domain.uat.sessiondigital.com/");
         $this->setSpeed(5);
     }
     
