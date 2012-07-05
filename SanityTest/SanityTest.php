@@ -15,7 +15,7 @@ class SanityTest extends baseDefinitions
                                         "",
                                         "e-boutique.html",
                                         "la-marque/",
-                                        "kookai-loves-you/",
+                                        "k-loves-you/",
                                         "customer/account/login/"        
                                      );
    
